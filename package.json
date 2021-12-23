@@ -32,7 +32,8 @@
 		"cleanup:coverage": "rimraf ./coverage",
 		"test:watch": "jest --coverage --watchAll",
 		"test": "jest --coverage",
-		"dev": "npm run build -- -w --preserveWatchOutput --incremental"
+		"dev": "npm run build -- -w --preserveWatchOutput --incremental",
+		"install": "npm run build"
 	},
 	"dependencies": {
 		"@directus/drive": "9.3.0",
