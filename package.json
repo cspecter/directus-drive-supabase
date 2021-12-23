@@ -35,7 +35,7 @@
 		"dev": "npm run build -- -w --preserveWatchOutput --incremental"
 	},
 	"dependencies": {
-		"@directus/drive": "9.3.2",
+		"@directus/drive": "9.3.0",
 		"@supabase/supabase-js": "^1.28.6",
 		"normalize-path": "^3.0.0"
 	},
